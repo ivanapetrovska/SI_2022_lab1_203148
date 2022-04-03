@@ -1,0 +1,147 @@
+4.git clone https://github.com/ivanapetrovska/SI_2022_lab1_203148.git
+So ovaa komanda go kloniravme repozitoriumot lokalno na nasiot kompjuter.
+
+5.Kreirav txt datoteka so ime shopping_list.txt,vo nea dodadov 5 slucajni proizvodi 
+i so pomos na komandite git add . ja dodadov nea,so pomos na komandata
+git commit -m "Add 5 items to the shopping list"
+ja napisav porakata i so pomos na komandata git push origin master
+ja staviv datotekata na master grankata.
+
+6.Vlegov vo shopping_list dadotekata mu dodadov kolicina na proizvodite,
+so git add . ja dodadov nea,so git commit -m "Add quantities to the items"
+ja napisav porakata i so pomos na komandata git push origin master
+ja staviv datotekata na master grankata.
+
+7.So pomos na komandata git branch branch1 i git branch branch2 kreirav
+dve granki so ime branch1 i branch2
+
+8.
+commit b4a3729282b6e2183cbd895dab9c85c211388088 (HEAD -> master, origin/master, origin/HEAD, branch2, branch1)
+Author: ivanapetrovska <ivanapetrovska929@yahoo.com>
+Date:   Sun Apr 3 22:53:53 2022 +0200
+
+    Add quantities to the items
+
+commit 93cd0b58cf32da166f42030bfc1d4151e54a1650
+Author: ivanapetrovska <ivanapetrovska929@yahoo.com>
+Date:   Sun Apr 3 22:49:11 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 61e3d0aff9005c5b6c5b03e81bdf8bab95f8f785
+Author: ivanapetrovska <102925753+ivanapetrovska@users.noreply.github.com>
+Date:   Sun Apr 3 22:35:39 2022 +0200
+
+    Update README.md
+
+commit f800c437eef44894122c31ea27b82c562ab3034f
+Author: ivanapetrovska <102925753+ivanapetrovska@users.noreply.github.com>
+Date:   Sun Apr 3 22:34:20 2022 +0200
+
+    Initial commit
+
+9.So git push --all komandata gi sinhroniziravme site granki.
+
+10.So git checkout branch1 se prefrlivme na grankata branch1.
+
+11.Ja promeniv kolicinata na pettata stavka vo shopping_list datotekata
+i so pomos na komadite git add . ja dodadov nea,so pomos na komandata
+git commit -m "Change quantity of item #5"
+ja napisav porakata i so pomos na komandata git push origin branch1
+ja staviv datotekata na branch1 grankata.
+
+12.So pomos na komadata git checkout master se prefrlivme na grankata master.
+
+13.Ja promeniv kolicinata na vtorata stavka vo shopping_list datotekata
+i so pomos na komadite git add . ja dodadov nea,so pomos na komandata
+git commit -m "Change quantity of item #2"
+ja napisav porakata i so pomos na komandata git push origin master
+ja staviv datotekata na master grankata.
+
+14.So git push --all komandata gi sinhroniziravme site granki.
+
+15.So pomos na komadata git checkout branch2 se prefrlivme na grankata 2.
+
+16.Go promeniv imeto na cetvrtata stavka vo shopping_list datotekata
+i so pomos na komadite git add . ja dodadov nea,so pomos na komandata
+git commit -m "Modify item #4"
+ja napisav porakata i so pomos na komandata git push origin branch2
+ja staviv datotekata na branch2 grankata.
+
+17.
+commit ad59ccd1f7088ed8cdabba04418e53248c74fa31 (HEAD -> branch2, origin/branch2)
+Author: ivanapetrovska <ivanapetrovska929@yahoo.com>
+Date:   Sun Apr 3 23:51:31 2022 +0200
+
+    Modify item #4
+
+commit b4a3729282b6e2183cbd895dab9c85c211388088
+Author: ivanapetrovska <ivanapetrovska929@yahoo.com>
+Date:   Sun Apr 3 22:53:53 2022 +0200
+
+    Add quantities to the items
+
+commit 93cd0b58cf32da166f42030bfc1d4151e54a1650
+Author: ivanapetrovska <ivanapetrovska929@yahoo.com>
+Date:   Sun Apr 3 22:49:11 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 61e3d0aff9005c5b6c5b03e81bdf8bab95f8f785
+Author: ivanapetrovska <102925753+ivanapetrovska@users.noreply.github.com>
+Date:   Sun Apr 3 22:35:39 2022 +0200
+
+    Update README.md
+
+commit f800c437eef44894122c31ea27b82c562ab3034f
+Author: ivanapetrovska <102925753+ivanapetrovska@users.noreply.github.com>
+Date:   Sun Apr 3 22:34:20 2022 +0200
+
+    Initial commit
+
+18.Dodadov sesta stavka vo shopping_list datotekata
+i so pomos na komadite git add . ja dodadov nea,so pomos na komandata
+git commit -m "Modify item #4 and add item #6"
+ja napisav porakata i so pomos na komandata git push origin branch2
+ja staviv datotekata na branch2 grankata.
+
+19.
+commit 1d96b901435ca077e7274632eb76c7f0f6a74524 (HEAD -> branch2, origin/branch2)
+Author: ivanapetrovska <ivanapetrovska929@yahoo.com>
+Date:   Sun Apr 3 23:55:50 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit ad59ccd1f7088ed8cdabba04418e53248c74fa31
+Author: ivanapetrovska <ivanapetrovska929@yahoo.com>
+Date:   Sun Apr 3 23:51:31 2022 +0200
+
+    Modify item #4
+
+commit b4a3729282b6e2183cbd895dab9c85c211388088
+Author: ivanapetrovska <ivanapetrovska929@yahoo.com>
+Date:   Sun Apr 3 22:53:53 2022 +0200
+
+    Add quantities to the items
+
+commit 93cd0b58cf32da166f42030bfc1d4151e54a1650
+Author: ivanapetrovska <ivanapetrovska929@yahoo.com>
+Date:   Sun Apr 3 22:49:11 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 61e3d0aff9005c5b6c5b03e81bdf8bab95f8f785
+Author: ivanapetrovska <102925753+ivanapetrovska@users.noreply.github.com>
+Date:   Sun Apr 3 22:35:39 2022 +0200
+
+    Update README.md
+
+commit f800c437eef44894122c31ea27b82c562ab3034f
+:
+
+20.So pomos na komandata git checkout master se vrativme na master grankata
+i potoa so git merge branch1 ja spoivme grankata master so branch1.
+
+21.So pomos na komandata git merge branch2 ja spoivme grankata master so 
+branch2.
+
