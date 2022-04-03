@@ -140,8 +140,16 @@ commit f800c437eef44894122c31ea27b82c562ab3034f
 :
 
 20.So pomos na komandata git checkout master se vrativme na master grankata
-i potoa so git merge branch1 ja spoivme grankata master so branch1.
+i potoa so git merge branch1 ja spoivme grankata master so branch1. Nemashe nikakvi konflikti pri spojuvanjeto
+Auto-merging shopping_list.txt
+Merge made by the 'ort' strategy.
+ shopping_list.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
-21.So pomos na komandata git merge branch2 ja spoivme grankata master so 
-branch2.
+21.So pomos na komandata git merge branch2 ja spoivme grankata master so  	
+branch2.Pritoa imashe konflikt kade sto morase da odberime koi promeni gi sakame
+da bidat na master za da se reshi ovoj slucaj ja upotrebivme strategijata no fast forward
+Auto-merging shopping_list.txt
+CONFLICT (content): Merge conflict in shopping_list.txt
+Automatic merge failed; fix conflicts and then commit the result.
 
